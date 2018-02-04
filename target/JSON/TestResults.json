@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "IE test",
+        "description": "",
+        "id": "validating-the-user-input-when-buying-a-single-ticket---passenger-details;ie-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15195115062,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open page",
+            "match": {
+              "location": "Capgemini.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43343680891,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on link",
+            "match": {
+              "location": "Capgemini.clickOnLink()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating the user input when buying a single ticket - passenger details",
+    "description": "",
+    "id": "validating-the-user-input-when-buying-a-single-ticket---passenger-details",
+    "keyword": "Feature",
+    "uri": "Capgemin.feature"
+  }
+]
