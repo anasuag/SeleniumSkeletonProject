@@ -27,10 +27,10 @@ public class Capgemini {
 
     @Then("^Click on link$")
     public void clickOnLink() throws Throwable {
-        Thread.sleep(5000);
+        Thread.sleep(15000);
         driver.findElement(By.xpath(".//a[text()='Customer Service']")).click();
         //driver.findElement(By.xpath(".//a")).click();
-        Thread.sleep(5000);
+        Thread.sleep(15000);
         assertEquals("Not matching","Hello. What can we help you with?",driver.findElement(By.xpath(".//h1[1]")).getText().trim());
     }
 
