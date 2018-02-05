@@ -16,7 +16,7 @@ public class Capgemini {
     public void openPage() throws Throwable {
         System.setProperty("webdriver.ie.driver","src/test/resources/IEDriverServer.exe");
         DesiredCapabilities cap = DesiredCapabilities.internetExplorer();
-        //cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
+        cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
         cap.setCapability(InternetExplorerDriver.ELEMENT_SCROLL_BEHAVIOR,true);
         cap.setCapability(InternetExplorerDriver.REQUIRE_WINDOW_FOCUS,true);
         cap.setCapability(InternetExplorerDriver.UNEXPECTED_ALERT_BEHAVIOR,true);
