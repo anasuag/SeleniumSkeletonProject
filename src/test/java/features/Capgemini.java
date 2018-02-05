@@ -32,6 +32,7 @@ public class Capgemini {
         //driver.findElement(By.xpath(".//a")).click();
         Thread.sleep(15000);
         assertEquals("Not matching","Hello. What can we help you with?",driver.findElement(By.xpath(".//h1[1]")).getText().trim());
+        driver.quit();
     }
 
 }
